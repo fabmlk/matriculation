@@ -1,0 +1,30 @@
+{
+    "name": "tms/matriculation",
+    "description": "French matriculation helpers.",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "TMS",
+            "email": "technique@tms-soft.fr",
+			"homepage": "https://www.tms-soft.fr/"
+        }
+    ],
+    "type": "library",
+	"keywords": ["matriculation", "SIV"],
+    "require": {
+		"php": "^7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tms\\Matriculation\\": "src/"
+        }
+    },
+	"autoload-dev": {
+        "psr-4": {
+			"Tms\\Matriculation\\Test\\": "tests/"
+		}
+    }
+}
