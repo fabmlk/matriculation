@@ -9,12 +9,14 @@ composer require tms/matriculation
 ## Fonctionnalités
 ### Formatage
 * `__toString()` : renvoi d'immatriculation formatée si valide, sinon juste en majuscule.
+
 ### SIV
 * `isMatriculationSIV()` : indique si l'immatriculation est valide pour le SIV
 * `isMatriculationSIVNormal()` : SIV série 'normale'
 * `isMatriculationSIVWGarage()` : SIV série 'W garage'
 * `isMatriculationSIVWW()` : SIV série 'provisoire'
 * `isMatriculationSIVCyclo()` : SIV série 'cyclomoteur' (avant 01/07/2015)
+
 ### FNI
 * `isMatriculationFNI()` : indique si l'immatriculation est valide pour le FNI
 * `isMatriculationFNINormal()` : FNI série 'normale'
