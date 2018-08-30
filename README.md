@@ -5,6 +5,12 @@ Cette librairie permet de vérifier et de formater les immatriculations (FNI et 
 ```bash
 composer require tms/matriculation
 ```
+Le dépôt étant privé, il faut ajouter la ligne suivante à la racine du fichier `composer.json` du projet :
+```json
+"repositories": [
+    { "type": "gitlab", "url": "http://gitlab.intra.misiv.fr/tms/matriculation.git" }
+]
+```
 
 ## Fonctionnalités
 ### Formatage
